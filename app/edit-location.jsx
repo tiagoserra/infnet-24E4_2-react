@@ -24,7 +24,7 @@ export default function EditLocation() {
             setLongitude(location.longitude);
             setSelectedLocation({ latitude: location.latitude, longitude: location.longitude });
         } else {
-            Alert.alert('Erro', 'Localização não encontrada.');
+            //Alert.alert('Erro', 'Localização não encontrada.');
             router.push("/");
         }
     }, [id, locations]);

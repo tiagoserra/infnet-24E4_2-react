@@ -32,7 +32,7 @@ export default function Home() {
     <View style={styles.container}>
 
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>NomeDoApp</Text>
+        <Text style={styles.headerTitle}>Meus locais favoritos</Text>
         {!isTablet && (
           <TouchableOpacity onPress={() => setShowList(!showList)}>
             <MaterialIcons name="list" size={24} color="#fff" />
